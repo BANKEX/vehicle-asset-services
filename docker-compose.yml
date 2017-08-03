@@ -7,4 +7,4 @@ services:
     working_dir: /usr/src/app
     command: sh -c 'npm install; npm install -g nodemon; nodemon -e js,jade index.js'
     ports:
-      - "3000:3000"
+      - "7056:3000"
